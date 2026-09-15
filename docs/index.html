@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Détecteur de demande — 15/09/2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root { --fond:#EDF1F5; --encre:#15253A; --acier:#5A6B80; --trait:#C9D3DE; --signal:#C77A00; --vert:#2D7456; --alerte:#9A3B2E; }
+@media (prefers-color-scheme: dark) {
+  :root { --fond:#0F1A27; --encre:#E6ECF2; --acier:#96A6B8; --trait:#2A3A4D; --signal:#F0A93B; --vert:#6FC39C; --alerte:#E88A7B; }
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--fond); color:var(--encre); font:16px/1.55 "Public Sans", system-ui, sans-serif; }
+main { max-width:1180px; margin:0 auto; padding:40px 24px 80px; }
+a { color:inherit; text-decoration-color:var(--signal); text-underline-offset:3px; }
+a:focus-visible { outline:2px solid var(--signal); outline-offset:2px; }
+.meta { color:var(--acier); margin:0 0 32px; }
+.demo { border:2px solid var(--alerte); color:var(--alerte); padding:10px 14px; font-weight:600; }
+.accroche { border-left:6px solid var(--signal); padding:4px 0 4px 22px; margin:0 0 48px; }
+.etiquette { margin:0; color:var(--acier); }
+.accroche h1 { font-size:clamp(40px,7vw,76px); line-height:1; font-weight:800; margin:6px 0 14px; letter-spacing:-0.02em; }
+.resume { max-width:70ch; margin:0; font-size:18px; }
+h2 { font-size:22px; font-weight:800; margin:56px 0 6px; }
+.aide { color:var(--acier); max-width:75ch; margin:0 0 16px; }
+.tableau { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-size:15px; }
+th { text-align:left; font-weight:600; color:var(--acier); border-bottom:2px solid var(--encre); padding:8px 10px; white-space:nowrap; }
+td { border-bottom:1px solid var(--trait); padding:10px; vertical-align:top; }
+.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+.fort { font-weight:800; color:var(--signal); }
+.groupe { color:var(--acier); margin:2px 0 0; font-size:13px; }
+.raison { color:var(--alerte); margin:4px 0 0; font-size:13px; }
+.barre { display:inline-block; width:90px; height:8px; background:var(--trait); margin-right:8px; vertical-align:middle; }
+.barre span { display:block; height:100%; background:var(--vert); }
+footer { margin-top:56px; color:var(--acier); font-size:14px; max-width:80ch; }
+</style>
+</head>
+<body>
+<main>
+
+<p class="meta">Relevé du 15/09/2026 sur 2 370 outils de l'Apify Store.</p>
+
+        <section class="accroche">
+          <p class="etiquette">Niche la mieux placée cette semaine</p>
+          <h1>doctolib</h1>
+          <p class="resume">72 utilisateurs sur 30 jours, 1 concurrent(s) actif(s),
+          97% de la demande sur des outils payants.
+          Leader : <a href="https://apify.com/rigelbytes/redfin-scraper">Redfin Scraper</a> — 72% d&#x27;exécutions réussies.</p>
+        </section>
+
+<h2>Niches classées</h2>
+<p class="aide">Le score monte avec la demande, la fragilité du leader et la part de demande déjà payante ; il baisse avec le nombre de concurrents actifs. « Actifs » = outils au-dessus du seuil d'utilisateurs mensuels.</p>
+<div class="tableau"><table>
+<thead><tr><th>#</th><th>Niche</th><th>Score</th><th>Demande 30 j</th><th>Actifs / total</th><th>Part payante</th><th>Évolution</th><th>Leader (part)</th></tr></thead>
+<tbody>
+        <tr>
+          <td class="num">1</td>
+          <td><strong>doctolib</strong><p class="groupe">France</p></td>
+          <td class="num fort">16.9</td>
+          <td class="num"><span class="barre"><span style="width:37%"></span></span><span>72</span></td>
+          <td class="num">1 / 39</td>
+          <td class="num">97%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/rigelbytes/redfin-scraper">Redfin Scraper</a> <span class="groupe">(17%)</span><p class="raison">72% d&#x27;exécutions réussies</p></td>
+        </tr>
+        <tr>
+          <td class="num">2</td>
+          <td><strong>gdpr</strong><p class="groupe">Europe</p></td>
+          <td class="num fort">16.7</td>
+          <td class="num"><span class="barre"><span style="width:58%"></span></span><span>786</span></td>
+          <td class="num">2 / 32</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/bounceverify/bounceverify-email-verifier">Bulk Email Verifier &amp; Validator — BounceVerify $0.89/1k</a> <span class="groupe">(92%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">3</td>
+          <td><strong>insee</strong><p class="groupe">France</p></td>
+          <td class="num fort">16.5</td>
+          <td class="num"><span class="barre"><span style="width:81%"></span></span><span>10 738</span></td>
+          <td class="num">5 / 24</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/apify/facebook-groups-scraper">Facebook Groups Scraper</a> <span class="groupe">(51%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">4</td>
+          <td><strong>public tender</strong><p class="groupe">Europe</p></td>
+          <td class="num fort">15.7</td>
+          <td class="num"><span class="barre"><span style="width:34%"></span></span><span>50</span></td>
+          <td class="num">1 / 28</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/foxlabs/ted-tenders">EU TED Tenders — Public Procurement Notice Scraper</a> <span class="groupe">(28%)</span><p class="raison">85% d&#x27;exécutions réussies</p></td>
+        </tr>
+        <tr>
+          <td class="num">5</td>
+          <td><strong>boamp</strong><p class="groupe">France</p></td>
+          <td class="num fort">15.6</td>
+          <td class="num"><span class="barre"><span style="width:50%"></span></span><span>309</span></td>
+          <td class="num">4 / 32</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/bestscrapers/linkedin-sales-navigator-scraper">Linkedin Sales Navigator Scraper</a> <span class="groupe">(47%)</span><p class="raison">note 3.4/5 (30 avis)</p></td>
+        </tr>
+        <tr>
+          <td class="num">6</td>
+          <td><strong>leboncoin seller</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">15.1</td>
+          <td class="num"><span class="barre"><span style="width:49%"></span></span><span>261</span></td>
+          <td class="num">4 / 34</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/fatihtahta/leboncoin-fr-scraper">Leboncoin.fr Scraper | $1 / 1k | Fast &amp; Reliable</a> <span class="groupe">(30%)</span><p class="raison">note 3.6/5 (8 avis)</p></td>
+        </tr>
+        <tr>
+          <td class="num">7</td>
+          <td><strong>eudr</strong><p class="groupe">Europe</p></td>
+          <td class="num fort">14.8</td>
+          <td class="num"><span class="barre"><span style="width:42%"></span></span><span>121</span></td>
+          <td class="num">1 / 34</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/blackfalcondata/nofluffjobs-scraper">NoFluffJobs Scraper — Tech Jobs Poland &amp; Europe</a> <span class="groupe">(12%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">8</td>
+          <td><strong>eu vat</strong><p class="groupe">Europe</p></td>
+          <td class="num fort">14.6</td>
+          <td class="num"><span class="barre"><span style="width:29%"></span></span><span>28</span></td>
+          <td class="num">0 / 30</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/ryanclinton/eu-vat-validator">EU VAT Validator — Compliance Monitoring &amp; Alerts</a> <span class="groupe">(4%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">9</td>
+          <td><strong>vies</strong><p class="groupe">Europe</p></td>
+          <td class="num fort">14.5</td>
+          <td class="num"><span class="barre"><span style="width:29%"></span></span><span>27</span></td>
+          <td class="num">0 / 28</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/iberiq/spain-tax-id-validator">Spain Tax ID Validator — NIF, CIF, NIE, IBAN &amp; EU VAT (VIES)</a> <span class="groupe">(4%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">10</td>
+          <td><strong>eur-lex</strong><p class="groupe">Europe</p></td>
+          <td class="num fort">14.3</td>
+          <td class="num"><span class="barre"><span style="width:29%"></span></span><span>26</span></td>
+          <td class="num">0 / 26</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/programmx/ebay-business-leads">eBay Business Leads Scraper — Emails, VAT &amp; Company Numbers</a> <span class="groupe">(15%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">11</td>
+          <td><strong>europe</strong><p class="groupe">Europe</p></td>
+          <td class="num fort">14.0</td>
+          <td class="num"><span class="barre"><span style="width:40%"></span></span><span>94</span></td>
+          <td class="num">1 / 38</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/blackfalcondata/nofluffjobs-scraper">NoFluffJobs Scraper — Tech Jobs Poland &amp; Europe</a> <span class="groupe">(15%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">12</td>
+          <td><strong>marches publics</strong><p class="groupe">France</p></td>
+          <td class="num fort">13.3</td>
+          <td class="num"><span class="barre"><span style="width:53%"></span></span><span>460</span></td>
+          <td class="num">3 / 31</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/data-slayer/instagram-user-info-scraper-cookieless">Instagram Profile Scraper · Verified Emails · No Login</a> <span class="groupe">(48%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">13</td>
+          <td><strong>siret</strong><p class="groupe">France</p></td>
+          <td class="num fort">13.1</td>
+          <td class="num"><span class="barre"><span style="width:40%"></span></span><span>101</span></td>
+          <td class="num">3 / 37</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/saswave/pagesjaunes-scraper">Pagesjaunes Scraper</a> <span class="groupe">(30%)</span><p class="raison">67% d&#x27;exécutions réussies</p></td>
+        </tr>
+        <tr>
+          <td class="num">14</td>
+          <td><strong>sirene</strong><p class="groupe">France</p></td>
+          <td class="num fort">12.6</td>
+          <td class="num"><span class="barre"><span style="width:36%"></span></span><span>62</span></td>
+          <td class="num">1 / 36</td>
+          <td class="num">98%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/dltik/pappers-sirene-scraper">Pappers / Sirene Scraper: 26M French Companies SIREN/SIRET</a> <span class="groupe">(19%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">15</td>
+          <td><strong>amazon kdp</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">12.1</td>
+          <td class="num"><span class="barre"><span style="width:34%"></span></span><span>51</span></td>
+          <td class="num">1 / 9</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/datascoutlab/fiverr-scraper">Fiverr Scraper — Gigs, Sellers, Prices &amp; Market Analysis</a> <span class="groupe">(33%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">16</td>
+          <td><strong>lead generation</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">12.0</td>
+          <td class="num"><span class="barre"><span style="width:64%"></span></span><span>1 464</span></td>
+          <td class="num">6 / 29</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/apimaestro/linkedin-company-detail">Company Detail Scraper for LinkedIn (No Cookies)</a> <span class="groupe">(33%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">17</td>
+          <td><strong>youtube transcript</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">11.6</td>
+          <td class="num"><span class="barre"><span style="width:80%"></span></span><span>9 436</span></td>
+          <td class="num">22 / 32</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/pintostudio/youtube-transcript-scraper">Youtube Transcript Scraper</a> <span class="groupe">(26%)</span><p class="raison">note 3.7/5 (49 avis)</p></td>
+        </tr>
+        <tr>
+          <td class="num">18</td>
+          <td><strong>leboncoin</strong><p class="groupe">France</p></td>
+          <td class="num fort">11.3</td>
+          <td class="num"><span class="barre"><span style="width:51%"></span></span><span>365</span></td>
+          <td class="num">9 / 34</td>
+          <td class="num">99%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/fatihtahta/leboncoin-fr-scraper">Leboncoin.fr Scraper | $1 / 1k | Fast &amp; Reliable</a> <span class="groupe">(21%)</span><p class="raison">note 3.6/5 (8 avis)</p></td>
+        </tr>
+        <tr>
+          <td class="num">19</td>
+          <td><strong>compliance</strong><p class="groupe">Europe</p></td>
+          <td class="num fort">11.2</td>
+          <td class="num"><span class="barre"><span style="width:33%"></span></span><span>41</span></td>
+          <td class="num">1 / 32</td>
+          <td class="num">95%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/ryanclinton/opencorporates-search">Corporate Decision Intelligence: KYC, Compliance, Supplier Risk</a> <span class="groupe">(27%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">20</td>
+          <td><strong>shopify seo</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">11.1</td>
+          <td class="num"><span class="barre"><span style="width:50%"></span></span><span>311</span></td>
+          <td class="num">4 / 32</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/apivault_labs/website-leads-database">Shopify &amp; WooCommerce Leads Database | 60M+ Websites</a> <span class="groupe">(44%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">21</td>
+          <td><strong>infogreffe</strong><p class="groupe">France</p></td>
+          <td class="num fort">10.7</td>
+          <td class="num"><span class="barre"><span style="width:30%"></span></span><span>32</span></td>
+          <td class="num">1 / 17</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/dltik/pappers-sirene-scraper">Pappers / Sirene Scraper: 26M French Companies SIREN/SIRET</a> <span class="groupe">(38%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">22</td>
+          <td><strong>seloger</strong><p class="groupe">France</p></td>
+          <td class="num fort">10.6</td>
+          <td class="num"><span class="barre"><span style="width:42%"></span></span><span>128</span></td>
+          <td class="num">3 / 37</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/azzouzana/seloger-mass-products-scraper-by-search-url">SeLoger Scraper 💰 $0.9/1K France Real Estate Extractor</a> <span class="groupe">(35%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">23</td>
+          <td><strong>company data</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">10.4</td>
+          <td class="num"><span class="barre"><span style="width:63%"></span></span><span>1 441</span></td>
+          <td class="num">17 / 38</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/datadoping/linkedin-profile-scraper">Linkedin Profile Scraper with Email &amp; Company Data (No Cookie)</a> <span class="groupe">(44%)</span><p class="raison">note 3.4/5 (11 avis)</p></td>
+        </tr>
+        <tr>
+          <td class="num">24</td>
+          <td><strong>societe.com</strong><p class="groupe">France</p></td>
+          <td class="num fort">10.3</td>
+          <td class="num"><span class="barre"><span style="width:45%"></span></span><span>170</span></td>
+          <td class="num">7 / 40</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/regdata/spain-company-directory-scraper">Spain Company Directory Scraper - Registro Mercantil</a> <span class="groupe">(11%)</span><p class="raison">40% d&#x27;exécutions réussies</p></td>
+        </tr>
+        <tr>
+          <td class="num">25</td>
+          <td><strong>welcome to the jungle</strong><p class="groupe">France</p></td>
+          <td class="num fort">10.2</td>
+          <td class="num"><span class="barre"><span style="width:50%"></span></span><span>306</span></td>
+          <td class="num">5 / 37</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/clearpath/welcome-to-the-jungle-jobs-api">Welcome to the Jungle Scraper - WTTJ Jobs Fast Export</a> <span class="groupe">(45%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">26</td>
+          <td><strong>data.gouv</strong><p class="groupe">France</p></td>
+          <td class="num fort">10.0</td>
+          <td class="num"><span class="barre"><span style="width:40%"></span></span><span>100</span></td>
+          <td class="num">3 / 31</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/leadsbrary/leboncoin-real-estate-scraper">Leboncoin Real Estate Scraper</a> <span class="groupe">(25%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">27</td>
+          <td><strong>french</strong><p class="groupe">France</p></td>
+          <td class="num fort">9.8</td>
+          <td class="num"><span class="barre"><span style="width:39%"></span></span><span>89</span></td>
+          <td class="num">3 / 39</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/dltik/pappers-sirene-scraper">Pappers / Sirene Scraper: 26M French Companies SIREN/SIRET</a> <span class="groupe">(13%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">28</td>
+          <td><strong>pappers</strong><p class="groupe">France</p></td>
+          <td class="num fort">9.7</td>
+          <td class="num"><span class="barre"><span style="width:45%"></span></span><span>170</span></td>
+          <td class="num">4 / 40</td>
+          <td class="num">94%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/parsebird/shopify-store-leads-scraper">Shopify Store Leads Scraper</a> <span class="groupe">(18%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">29</td>
+          <td><strong>pagesjaunes</strong><p class="groupe">France</p></td>
+          <td class="num fort">9.7</td>
+          <td class="num"><span class="barre"><span style="width:45%"></span></span><span>168</span></td>
+          <td class="num">8 / 36</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/saswave/pagesjaunes-scraper">Pagesjaunes Scraper</a> <span class="groupe">(18%)</span><p class="raison">67% d&#x27;exécutions réussies</p></td>
+        </tr>
+        <tr>
+          <td class="num">30</td>
+          <td><strong>bienici</strong><p class="groupe">France</p></td>
+          <td class="num fort">9.5</td>
+          <td class="num"><span class="barre"><span style="width:44%"></span></span><span>148</span></td>
+          <td class="num">4 / 37</td>
+          <td class="num">95%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/dltik/pige-immo-fr-scraper">Pige Immo FR: 20 Portals, Address + Price Tracking</a> <span class="groupe">(20%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">31</td>
+          <td><strong>bodacc</strong><p class="groupe">France</p></td>
+          <td class="num fort">9.3</td>
+          <td class="num"><span class="barre"><span style="width:42%"></span></span><span>119</span></td>
+          <td class="num">4 / 35</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/dltik/francetravail-scraper">France Travail Scraper: 700K+ FR Jobs (Pôle Emploi)</a> <span class="groupe">(23%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">32</td>
+          <td><strong>annuaire</strong><p class="groupe">France</p></td>
+          <td class="num fort">9.2</td>
+          <td class="num"><span class="barre"><span style="width:45%"></span></span><span>174</span></td>
+          <td class="num">5 / 38</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/fayoussef/canada411-ca">Canada411 Scraper: Business Phones, Addresses</a> <span class="groupe">(33%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">33</td>
+          <td><strong>gumroad</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">8.8</td>
+          <td class="num"><span class="barre"><span style="width:35%"></span></span><span>57</span></td>
+          <td class="num">3 / 26</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/muhammetakkurtt/gumroad-scraper">Gumroad Scraper</a> <span class="groupe">(28%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">34</td>
+          <td><strong>vinted</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">8.8</td>
+          <td class="num"><span class="barre"><span style="width:50%"></span></span><span>303</span></td>
+          <td class="num">7 / 30</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/epicscrapers/vinted-search-scraper">Vinted Scraper</a> <span class="groupe">(25%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">35</td>
+          <td><strong>email finder</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">8.8</td>
+          <td class="num"><span class="barre"><span style="width:72%"></span></span><span>4 062</span></td>
+          <td class="num">32 / 36</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/microworlds/leads-finder">🍏 Leads Finder - Email 📧 + Mobile Number 📞​</a> <span class="groupe">(19%)</span><p class="raison">note 3.7/5 (113 avis)</p></td>
+        </tr>
+        <tr>
+          <td class="num">36</td>
+          <td><strong>print on demand</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">8.7</td>
+          <td class="num"><span class="barre"><span style="width:50%"></span></span><span>304</span></td>
+          <td class="num">6 / 38</td>
+          <td class="num">86%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/yumitori/etsy-search-scraper">💰 Etsy Scraper — Product Research, Tags, Prices &amp; Sales</a> <span class="groupe">(23%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">37</td>
+          <td><strong>france</strong><p class="groupe">France</p></td>
+          <td class="num fort">8.7</td>
+          <td class="num"><span class="barre"><span style="width:46%"></span></span><span>202</span></td>
+          <td class="num">6 / 35</td>
+          <td class="num">99%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/azzouzana/seloger-mass-products-scraper-by-search-url">SeLoger Scraper 💰 $0.9/1K France Real Estate Extractor</a> <span class="groupe">(22%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">38</td>
+          <td><strong>ai agent</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">8.4</td>
+          <td class="num"><span class="barre"><span style="width:49%"></span></span><span>264</span></td>
+          <td class="num">7 / 32</td>
+          <td class="num">97%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/johnvc/google-events-api---access-google-events-data">Google Events | Scrape Google Events for AI Agents</a> <span class="groupe">(17%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">39</td>
+          <td><strong>mcp</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">8.4</td>
+          <td class="num"><span class="barre"><span style="width:54%"></span></span><span>482</span></td>
+          <td class="num">16 / 35</td>
+          <td class="num">99%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/smacient/google-keyword-planner-mcp">Google Keyword Planner MCP</a> <span class="groupe">(15%)</span><p class="raison">84% d&#x27;exécutions réussies</p></td>
+        </tr>
+        <tr>
+          <td class="num">40</td>
+          <td><strong>indeed france</strong><p class="groupe">France</p></td>
+          <td class="num fort">8.2</td>
+          <td class="num"><span class="barre"><span style="width:59%"></span></span><span>914</span></td>
+          <td class="num">12 / 33</td>
+          <td class="num">99%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/openclawai/job-board-scraper">Multi Job Board Scraper — LinkedIn, Indeed, Glassdoor &amp; More</a> <span class="groupe">(44%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">41</td>
+          <td><strong>pap.fr</strong><p class="groupe">France</p></td>
+          <td class="num fort">7.9</td>
+          <td class="num"><span class="barre"><span style="width:46%"></span></span><span>191</span></td>
+          <td class="num">7 / 36</td>
+          <td class="num">96%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/johnvc/google-scholar-api">Google Scholar | Research Papers, Citations &amp; Author Profiles</a> <span class="groupe">(24%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">42</td>
+          <td><strong>linkedin</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">7.9</td>
+          <td class="num"><span class="barre"><span style="width:100%"></span></span><span>95 272</span></td>
+          <td class="num">39 / 39</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/curious_coder/linkedin-jobs-scraper">Linkedin Jobs Scraper</a> <span class="groupe">(19%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">43</td>
+          <td><strong>digital products</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">7.8</td>
+          <td class="num"><span class="barre"><span style="width:45%"></span></span><span>171</span></td>
+          <td class="num">7 / 32</td>
+          <td class="num">97%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/shahidirfan/HelloWork-Jobs-Scraper">HelloWork Jobs Scraper</a> <span class="groupe">(23%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">44</td>
+          <td><strong>etsy seo</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">7.7</td>
+          <td class="num"><span class="barre"><span style="width:52%"></span></span><span>377</span></td>
+          <td class="num">9 / 35</td>
+          <td class="num">89%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/yumitori/etsy-search-scraper">💰 Etsy Scraper — Product Research, Tags, Prices &amp; Sales</a> <span class="groupe">(19%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">45</td>
+          <td><strong>real estate</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">7.6</td>
+          <td class="num"><span class="barre"><span style="width:63%"></span></span><span>1 366</span></td>
+          <td class="num">32 / 37</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/igolaizola/idealista-scraper">Idealista Scraper - Real Estate Data for Spain, Italy, Portugal</a> <span class="groupe">(21%)</span><p class="raison">note 3.8/5 (22 avis)</p></td>
+        </tr>
+        <tr>
+          <td class="num">46</td>
+          <td><strong>job listings</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">7.6</td>
+          <td class="num"><span class="barre"><span style="width:70%"></span></span><span>2 918</span></td>
+          <td class="num">20 / 38</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/fantastic-jobs/career-site-job-listing-api">Career Site Job Listing API</a> <span class="groupe">(50%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">47</td>
+          <td><strong>google maps</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">7.5</td>
+          <td class="num"><span class="barre"><span style="width:95%"></span></span><span>56 806</span></td>
+          <td class="num">39 / 40</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/compass/crawler-google-places">Google Maps Scraper</a> <span class="groupe">(64%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">48</td>
+          <td><strong>pinterest</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">7.4</td>
+          <td class="num"><span class="barre"><span style="width:64%"></span></span><span>1 615</span></td>
+          <td class="num">18 / 38</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/fatihtahta/pinterest-scraper-search">Pinterest Scraper | All-In-One</a> <span class="groupe">(23%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">49</td>
+          <td><strong>reviews</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">7.3</td>
+          <td class="num"><span class="barre"><span style="width:92%"></span></span><span>36 695</span></td>
+          <td class="num">38 / 39</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/compass/Google-Maps-Reviews-Scraper">Google Maps Reviews Scraper</a> <span class="groupe">(18%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">50</td>
+          <td><strong>tiktok</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">7.3</td>
+          <td class="num"><span class="barre"><span style="width:94%"></span></span><span>47 185</span></td>
+          <td class="num">40 / 40</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/clockworks/tiktok-scraper">TikTok Scraper</a> <span class="groupe">(48%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">51</td>
+          <td><strong>france travail</strong><p class="groupe">France</p></td>
+          <td class="num fort">7.2</td>
+          <td class="num"><span class="barre"><span style="width:43%"></span></span><span>136</span></td>
+          <td class="num">5 / 37</td>
+          <td class="num">65%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/dltik/francetravail-scraper">France Travail Scraper: 700K+ FR Jobs (Pôle Emploi)</a> <span class="groupe">(20%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">52</td>
+          <td><strong>dvf</strong><p class="groupe">France</p></td>
+          <td class="num fort">7.1</td>
+          <td class="num"><span class="barre"><span style="width:41%"></span></span><span>107</span></td>
+          <td class="num">4 / 33</td>
+          <td class="num">57%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/dltik/pige-immo-fr-scraper">Pige Immo FR: 20 Portals, Address + Price Tracking</a> <span class="groupe">(28%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">53</td>
+          <td><strong>amazon</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">7.1</td>
+          <td class="num"><span class="barre"><span style="width:77%"></span></span><span>6 654</span></td>
+          <td class="num">28 / 30</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/junglee/Amazon-crawler">Amazon Product Scraper</a> <span class="groupe">(30%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">54</td>
+          <td><strong>legifrance</strong><p class="groupe">France</p></td>
+          <td class="num fort">7.0</td>
+          <td class="num"><span class="barre"><span style="width:14%"></span></span><span>4</span></td>
+          <td class="num">0 / 6</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/dltik/jorf-bulletin-officiel-scraper">JORF Scraper: French Official Journal API (Legifrance + DILA)</a> <span class="groupe">(25%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">55</td>
+          <td><strong>shopify</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">6.8</td>
+          <td class="num"><span class="barre"><span style="width:59%"></span></span><span>894</span></td>
+          <td class="num">18 / 32</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/clearpath/shopify-store-leads">Shopify Store Leads Scraper - Emails, Phones &amp; Ratings</a> <span class="groupe">(22%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">56</td>
+          <td><strong>price monitoring</strong><p class="groupe">Marchés B2B</p></td>
+          <td class="num fort">6.5</td>
+          <td class="num"><span class="barre"><span style="width:67%"></span></span><span>2 175</span></td>
+          <td class="num">25 / 37</td>
+          <td class="num">100%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search">Google Flights API</a> <span class="groupe">(17%)</span></td>
+        </tr>
+        <tr>
+          <td class="num">57</td>
+          <td><strong>etsy</strong><p class="groupe">Outils pour vendeurs</p></td>
+          <td class="num fort">6.0</td>
+          <td class="num"><span class="barre"><span style="width:62%"></span></span><span>1 193</span></td>
+          <td class="num">25 / 36</td>
+          <td class="num">99%</td>
+          <td class="num">—</td>
+          <td><a href="https://apify.com/yumitori/etsy-listings-scraper">🔥 Etsy Listings Scraper – Live Carts &amp; Ads</a> <span class="groupe">(24%)</span></td>
+        </tr></tbody>
+</table></div>
+
+<h2>Leaders fragiles</h2>
+<p class="aide">Outils très utilisés mais mal notés, instables ou délaissés : leurs utilisateurs sont prêts à changer.</p>
+<div class="tableau"><table>
+<thead><tr><th>Outil</th><th>Utilisateurs 30 j</th><th>Prix</th><th>Signaux</th></tr></thead>
+<tbody><tr><td><a href="https://apify.com/apify/instagram-hashtag-scraper">Instagram Hashtag Scraper</a></td><td class="num">9 022</td><td>PAY_PER_EVENT</td><td class="raison">note 3.4/5 (87 avis)</td></tr><tr><td><a href="https://apify.com/trudax/reddit-scraper-lite">Reddit Scraper Lite</a></td><td class="num">7 393</td><td>PAY_PER_EVENT</td><td class="raison">88% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/harvestapi/linkedin-profile-search">LinkedIn Profile Search Scraper No Cookies ✅ Find all people 📧</a></td><td class="num">6 291</td><td>PAY_PER_EVENT</td><td class="raison">86% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/apify/playwright-scraper">Playwright Scraper</a></td><td class="num">2 773</td><td>FREE</td><td class="raison">note 3.8/5 (23 avis)</td></tr><tr><td><a href="https://apify.com/pintostudio/youtube-transcript-scraper">Youtube Transcript Scraper</a></td><td class="num">2 417</td><td>PAY_PER_EVENT</td><td class="raison">note 3.7/5 (49 avis)</td></tr><tr><td><a href="https://apify.com/code_crafter/leads-finder">✨Leads Finder - $1.5/1k leads with Emails [Apollo Alternative]</a></td><td class="num">2 262</td><td>PAY_PER_EVENT</td><td class="raison">note 3.6/5 (549 avis)</td></tr><tr><td><a href="https://apify.com/misceres/indeed-scraper">Indeed Scraper</a></td><td class="num">2 259</td><td>PAY_PER_EVENT</td><td class="raison">note 3.0/5 (67 avis)</td></tr><tr><td><a href="https://apify.com/fantastic-jobs/advanced-linkedin-job-search-api">Advanced LinkedIn Job Search API</a></td><td class="num">1 946</td><td>PAY_PER_EVENT</td><td class="raison">note 2.9/5 (20 avis)</td></tr><tr><td><a href="https://apify.com/harvestapi/linkedin-profile-search-by-name">Linkedin Profile Search By Name scraper ✅ No Cookies</a></td><td class="num">1 766</td><td>PAY_PER_EVENT</td><td class="raison">85% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/apify/google-trends-scraper">Google Trends Scraper</a></td><td class="num">1 350</td><td>PAY_PER_EVENT</td><td class="raison">note 3.7/5 (32 avis) ; 63% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/dev_fusion/Linkedin-Profile-Scraper">✨Mass Linkedin Profile Scraper with Email 📧 (No Cookies)</a></td><td class="num">1 309</td><td>PAY_PER_EVENT</td><td class="raison">note 3.6/5 (159 avis)</td></tr><tr><td><a href="https://apify.com/pipelinelabs/lead-scraper-apollo-zoominfo-lusha-ppe">🎉Leads Scraper ✅ $1/1k Leads ✅ 50K/Run With EMAILS✅Like Apollo</a></td><td class="num">1 256</td><td>PAY_PER_EVENT</td><td class="raison">note 3.2/5 (85 avis)</td></tr><tr><td><a href="https://apify.com/apimaestro/linkedin-company-employees-scraper-no-cookies">Company Employees Scraper for LinkedIn | No Cookies</a></td><td class="num">1 186</td><td>PAY_PER_EVENT</td><td class="raison">note 2.9/5 (19 avis)</td></tr><tr><td><a href="https://apify.com/apify/instagram-api-scraper">Instagram API Scraper</a></td><td class="num">1 054</td><td>PAY_PER_EVENT</td><td class="raison">note 3.0/5 (34 avis)</td></tr><tr><td><a href="https://apify.com/microworlds/leads-finder">🍏 Leads Finder - Email 📧 + Mobile Number 📞​</a></td><td class="num">769</td><td>PAY_PER_EVENT</td><td class="raison">note 3.7/5 (113 avis)</td></tr><tr><td><a href="https://apify.com/lukaskrivka/google-sheets">Google Sheets Import &amp; Export</a></td><td class="num">757</td><td>FREE</td><td class="raison">43% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/worldunboxer/rapid-linkedin-scraper">⚡️Rapid Linkedin Jobs Scraper</a></td><td class="num">704</td><td>PAY_PER_EVENT</td><td class="raison">note 3.7/5 (28 avis)</td></tr><tr><td><a href="https://apify.com/pipelinelabs/leads-finder-with-emails-apollo-lusha-zoominfo">🎉 Leads Finder ✅ $1.50/1k with Emails ✅ Apollo Alternative</a></td><td class="num">678</td><td>PAY_PER_EVENT</td><td class="raison">note 3.6/5 (12 avis)</td></tr><tr><td><a href="https://apify.com/apify/facebook-reels-scraper">Facebook Reels Scraper</a></td><td class="num">677</td><td>PAY_PER_EVENT</td><td class="raison">note 2.8/5 (18 avis)</td></tr><tr><td><a href="https://apify.com/datadoping/linkedin-profile-scraper">Linkedin Profile Scraper with Email &amp; Company Data (No Cookie)</a></td><td class="num">631</td><td>PAY_PER_EVENT</td><td class="raison">note 3.4/5 (11 avis)</td></tr><tr><td><a href="https://apify.com/caffein.dev/ebay-sold-listings">eBay Sold Listings Search</a></td><td class="num">608</td><td>PAY_PER_EVENT</td><td class="raison">89% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/microworlds/crawler-google-places">Google Maps Scraper $1.5/1k places 📍 with emails 📧</a></td><td class="num">589</td><td>PAY_PER_EVENT</td><td class="raison">85% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/web_wanderer/amazon-reviews-extractor">Amazon Reviews Scraper</a></td><td class="num">539</td><td>PAY_PER_EVENT</td><td class="raison">note 3.4/5 (31 avis)</td></tr><tr><td><a href="https://apify.com/apidojo/instagram-hashtag-scraper">Instagram Hashtag Scraper</a></td><td class="num">538</td><td>PAY_PER_EVENT</td><td class="raison">note 3.4/5 (16 avis)</td></tr><tr><td><a href="https://apify.com/solidcode/ads-transparency-scraper">Google Ads Transparency Scraper</a></td><td class="num">532</td><td>PAY_PER_EVENT</td><td class="raison">note 1.9/5 (4 avis)</td></tr><tr><td><a href="https://apify.com/junglee/free-amazon-product-scraper">Amazon Scraper</a></td><td class="num">494</td><td>PAY_PER_EVENT</td><td class="raison">82% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/afanasenko/instagram-profile-scraper">Instagram Profile Scraper — Emails, Bio Links &amp; Post Likers</a></td><td class="num">491</td><td>PAY_PER_EVENT</td><td class="raison">note 2.5/5 (10 avis)</td></tr><tr><td><a href="https://apify.com/scrape.badger/twitter-tweets-scraper">X Tweet Scraper | $0.15/1K Tweets | Pay-Per-Result</a></td><td class="num">406</td><td>PAY_PER_EVENT</td><td class="raison">note 3.3/5 (17 avis)</td></tr><tr><td><a href="https://apify.com/epctex/youtube-video-downloader">Youtube Video Downloader - No Platform Costs! No Proxy Costs!</a></td><td class="num">384</td><td>PAY_PER_EVENT</td><td class="raison">note 2.2/5 (26 avis)</td></tr><tr><td><a href="https://apify.com/apidojo/youtube-scraper">Youtube Scraper (Pay Per Result)</a></td><td class="num">373</td><td>PAY_PER_EVENT</td><td class="raison">note 3.3/5 (22 avis) ; 82% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/thewolves/appstore-reviews-scraper">App Store Reviews Scraper API | $0.10/1K Reviews</a></td><td class="num">340</td><td>PAY_PER_EVENT</td><td class="raison">90% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/johnvc/Google-Jobs-Scraper">Google Jobs Scraper</a></td><td class="num">339</td><td>PAY_PER_EVENT</td><td class="raison">81% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/leadsbrary/google-maps-email-extractor">Google Maps Email Extractor</a></td><td class="num">319</td><td>PAY_PER_EVENT</td><td class="raison">78% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/sian.agency/instagram-ai-transcript-extractor">Instagram AI Transcript Extractor</a></td><td class="num">302</td><td>PAY_PER_EVENT</td><td class="raison">note 2.3/5 (12 avis)</td></tr><tr><td><a href="https://apify.com/igolaizola/idealista-scraper">Idealista Scraper - Real Estate Data for Spain, Italy, Portugal</a></td><td class="num">282</td><td>PAY_PER_EVENT</td><td class="raison">note 3.8/5 (22 avis)</td></tr><tr><td><a href="https://apify.com/apify/send-mail">Send Email</a></td><td class="num">278</td><td>FREE</td><td class="raison">86% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/automly/facebook-ad-library-scraper">Meta (Facebook) Ad Library Scraper - Efficient &amp; Fast</a></td><td class="num">276</td><td>PAY_PER_EVENT</td><td class="raison">81% d&#x27;exécutions réussies</td></tr><tr><td><a href="https://apify.com/maxcopell/zillow-zip-search">Zillow ZIP Code Search Scraper</a></td><td class="num">271</td><td>PAY_PER_EVENT</td><td class="raison">note 3.4/5 (13 avis)</td></tr><tr><td><a href="https://apify.com/clearpath/email-finder-api">Email Finder &amp; Verifier - B2B Email Lookup API</a></td><td class="num">267</td><td>PAY_PER_EVENT</td><td class="raison">note 2.0/5 (4 avis)</td></tr><tr><td><a href="https://apify.com/x_guru/Leads-Scraper-apollo-zoominfo">💎 Leads Scraper $1/1K With EMAILS | 300M base | Like Apollo</a></td><td class="num">262</td><td>PAY_PER_EVENT</td><td class="raison">note 2.0/5 (31 avis)</td></tr></tbody>
+</table></div>
+
+<h2>Nouveaux outils qui décollent</h2>
+<p class="aide">Publiés récemment et déjà adoptés : signe d'un besoin émergent.</p>
+<div class="tableau"><table>
+<thead><tr><th>Outil</th><th>Utilisateurs 30 j</th><th>Âge</th><th>Utilisateurs / jour d'âge</th><th>Prix</th></tr></thead>
+<tbody><tr><td colspan="5">Aucun nouvel outil au-dessus du seuil cette semaine.</td></tr></tbody>
+</table></div>
+
+<footer>Source : API publique de l'Apify Store. Les chiffres d'utilisateurs mesurent l'usage, pas le chiffre d'affaires. Le score est un outil de tri : vérifiez toujours une niche à la main avant de construire.</footer>
+</main>
+</body>
+</html>
