@@ -1,0 +1,52 @@
+{
+  "api_base": "https://api.apify.com/v2/store",
+  "pause_secondes": 0.5,
+  "resultats_par_mot_cle": 40,
+  "max_par_categorie": 1000,
+
+  "categories": [
+    "AGENTS", "AI", "AUTOMATION", "BUSINESS", "DEVELOPER_TOOLS", "ECOMMERCE",
+    "EDUCATION", "INTEGRATIONS", "JOBS", "LEAD_GENERATION", "MARKETING", "NEWS",
+    "OPEN_SOURCE", "OTHER", "REAL_ESTATE", "SEO_TOOLS", "SOCIAL_MEDIA", "TRAVEL"
+  ],
+
+  "mots_cles": {
+    "France": [
+      "france", "french", "sirene", "siret", "insee", "data.gouv", "pappers",
+      "societe.com", "infogreffe", "bodacc", "boamp", "marches publics",
+      "leboncoin", "seloger", "pap.fr", "bienici", "pagesjaunes", "doctolib",
+      "indeed france", "welcome to the jungle", "france travail", "vinted",
+      "legifrance", "dvf", "annuaire"
+    ],
+    "Europe": [
+      "europe", "eu vat", "vies", "public tender", "eur-lex", "gdpr",
+      "compliance", "eudr", "epr registration"
+    ],
+    "Marchés B2B": [
+      "lead generation", "linkedin", "google maps", "reviews", "price monitoring",
+      "shopify", "amazon", "real estate", "job listings", "company data",
+      "email finder", "tiktok", "youtube transcript", "mcp", "ai agent"
+    ],
+    "Outils pour vendeurs": [
+      "etsy", "etsy seo", "gumroad", "digital products", "pinterest",
+      "vinted", "leboncoin seller", "shopify seo", "amazon kdp", "print on demand"
+    ]
+  },
+
+  "seuils": {
+    "actif_min_utilisateurs_30j": 10,
+    "faible_min_utilisateurs_30j": 50,
+    "note_faible_sous": 3.8,
+    "avis_min_pour_note": 3,
+    "succes_faible_sous": 0.9,
+    "obsolete_apres_jours": 120,
+    "montant_min_utilisateurs_30j": 20,
+    "montant_age_max_jours": 90
+  },
+
+  "poids_faiblesse": {
+    "note_basse": 0.4,
+    "echecs_frequents": 0.3,
+    "obsolete_ou_maintenance": 0.3
+  }
+}
