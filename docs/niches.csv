@@ -1,59 +1,59 @@
 rang,requete,groupe,score,demande_30j,nb_outils,nb_actifs,part_leader,part_payante,faiblesse_leader,croissance,leader,leader_url,raisons
-1,insee,France,21.74,48,33,0,0.167,0.979,0.3,0.171,Extraire n° Siren de sites web ou noms de domaine,https://apify.com/sbzh/extract-siren,86% d'exécutions réussies
-2,gdpr,Europe,19.93,2827,33,2,0.925,1.0,0.0,0.084,Bulk Email Verifier & Validator — BounceVerify $0.89/1k,https://apify.com/bounceverify/bounceverify-email-verifier,
-3,doctolib,France,18.17,24,22,0,0.125,1.0,0.3,0.2,Doctolib · Practitioners by Specialty & City,https://apify.com/corent1robert/doctolib-practitioner-scraper,87% d'exécutions réussies
-4,bodacc,France,15.93,40,36,0,0.075,0.975,0.0,0.026,France Pappers + BODACC + INPI Scraper,https://apify.com/jungle_synthesizer/france-pappers-bodacc-inpi-scraper,
-5,eu vat,Europe,15.91,38,31,0,0.105,1.0,0.0,0.0,EU VAT Validator — Compliance Monitoring & Alerts,https://apify.com/ryanclinton/eu-vat-validator,
-6,vies,Europe,15.56,35,32,0,0.057,1.0,0.0,-0.028,"Spain Tax ID Validator — NIF, CIF, NIE, IBAN & EU VAT (VIES)",https://apify.com/iberiq/spain-tax-id-validator,
-7,data.gouv,France,15.46,36,36,0,0.083,0.972,0.0,-0.1,French Companies · Search & SIREN Enrich,https://apify.com/corent1robert/recherche-entreprises-scraper,
-8,marches publics,France,15.21,34,34,0,0.088,0.971,0.0,-0.595,BOAMP Scraper: French Public Tenders & Marches Publics,https://apify.com/dltik/boamp-fr-scraper,
-9,infogreffe,France,15.13,15,7,0,0.533,0.933,0.3,0.071,Extraire n° Siren de sites web ou noms de domaine,https://apify.com/sbzh/extract-siren,86% d'exécutions réussies
-10,lead generation,Marchés B2B,13.95,4926,28,6,0.482,0.999,0.0,-0.061,Instagram Followers/Following Scraper | No Login | No Cookies,https://apify.com/scraping_solutions/instagram-scraper-followers-following-no-cookies,
-11,boamp,France,13.75,29,27,0,0.103,0.862,0.0,0.0,BOAMP Scraper: French Public Tenders & Marches Publics,https://apify.com/dltik/boamp-fr-scraper,
-12,pagesjaunes,France,13.7,127,35,3,0.402,1.0,0.3,0.165,Pagesjaunes Scraper,https://apify.com/saswave/pagesjaunes-scraper,72% d'exécutions réussies
-13,shopify seo,Outils pour vendeurs,13.48,218,31,2,0.482,0.995,0.0,-0.174,Shopify Products Scraper,https://apify.com/trovevault/shopify-products-scraper,
-14,etsy seo,Outils pour vendeurs,13.31,1178,35,8,0.348,1.0,0.3,0.075,"Traffic Generator (Youtube, Web, Etsy, Behance and many more!)",https://apify.com/epctex/traffic-generator,48% d'exécutions réussies
-15,bienici,France,13.13,71,39,1,0.239,1.0,0.0,0.06,Bien'ici Property Search Scraper,https://apify.com/solidcode/bienici-com-scraper,
-16,siret,France,13.12,75,34,1,0.347,0.973,0.0,0.056,Pappers / Sirene Scraper: 26M French Companies SIREN/SIRET,https://apify.com/dltik/pappers-sirene-scraper,
-17,societe.com,France,12.79,18,11,0,0.167,1.0,0.0,-0.143,French Companies · Search & SIREN Enrich,https://apify.com/corent1robert/recherche-entreprises-scraper,
-18,dvf,France,12.62,60,22,1,0.65,1.0,0.0,0.071,"Pige Immo FR: 20 Portals, Address + Price Tracking",https://apify.com/dltik/pige-immo-fr-scraper,
-19,compliance,Europe,12.62,66,34,1,0.197,0.955,0.0,0.031,"Corporate Decision Intelligence: KYC, Compliance, Supplier Risk",https://apify.com/ryanclinton/opencorporates-search,
-20,amazon kdp,Outils pour vendeurs,12.39,215,26,5,0.302,1.0,0.3,0.126,Amazon KDP Book Niche Analyzer: Self Publishing Niche Research,https://apify.com/getascraper/kdp-book-niche-analyzer,85% d'exécutions réussies
-21,europe,Europe,12.22,130,40,2,0.138,1.0,0.0,0.032,NoFluffJobs Scraper — Tech Jobs Poland & Europe,https://apify.com/blackfalcondata/nofluffjobs-scraper,
-22,annuaire,France,12.14,55,36,1,0.182,0.964,0.0,-0.018,France Company Registry Scraper - SIREN B2B Leads,https://apify.com/logiover/france-company-registry-scraper,
-23,indeed france,France,11.87,236,36,3,0.275,1.0,0.0,0.38,France Travail Scraper: 700K+ FR Jobs (Pôle Emploi),https://apify.com/dltik/francetravail-scraper,
-24,france,France,11.8,1096,38,12,0.391,1.0,0.4,0.012,Idealista Scraper - Real Estate for Spain Italy Portugal France,https://apify.com/igolaizola/idealista-scraper,note 3.8/5 (22 avis)
-25,digital products,Outils pour vendeurs,11.44,633,32,5,0.594,1.0,0.0,0.05,🔥 Etsy Listings Scraper – Live Carts & Ads,https://apify.com/yumitori/etsy-listings-scraper,
-26,public tender,Europe,11.24,92,33,2,0.141,0.978,0.0,0.278,TED Europa Scraper: EU Public Procurement Tenders,https://apify.com/dltik/ted-europa-scraper,
-27,eur-lex,Europe,11.14,12,18,0,0.083,1.0,0.0,0.2,"EUR-Lex Scraper - EU Regulations, Directives & Case Law",https://apify.com/jungle_synthesizer/eur-lex-eu-legislation-scraper,
-28,france travail,France,10.95,154,39,3,0.422,1.0,0.0,0.158,France Travail Scraper: 700K+ FR Jobs (Pôle Emploi),https://apify.com/dltik/francetravail-scraper,
-29,gumroad,Outils pour vendeurs,10.89,76,35,2,0.408,1.0,0.0,0.07,"Gumroad Scraper — Products, Sellers, Reviews & Creator Emails",https://apify.com/memo23/gumroad-scraper,
-30,legifrance,France,10.68,12,15,0,0.167,0.917,0.0,0.091,JORF Scraper: French Official Journal API (Legifrance + DILA),https://apify.com/dltik/jorf-bulletin-officiel-scraper,
-31,sirene,France,10.31,119,39,3,0.218,0.983,0.0,0.155,Pappers / Sirene Scraper: 26M French Companies SIREN/SIRET,https://apify.com/dltik/pappers-sirene-scraper,
-32,seloger,France,10.01,172,37,4,0.233,1.0,0.0,-0.118,SeLoger Scraper 💰 $0.9/1K France Real Estate Extractor,https://apify.com/azzouzana/seloger-mass-products-scraper-by-search-url,
-33,french,France,9.8,251,40,5,0.247,1.0,0.0,0.136,APEC Job Scraper [Just 💰$0.8] — French Executive Jobs,https://apify.com/blackfalcondata/apec-scraper,
-34,leboncoin seller,Outils pour vendeurs,9.8,391,36,6,0.304,1.0,0.0,-0.175,Leboncoin Scraper (API) Pro 🇫🇷 - Annonces & Prix,https://apify.com/clearpath/leboncoin-api,
-35,pappers,France,9.78,248,39,5,0.323,1.0,0.0,0.175,"Google Scholar | Research Papers, Citations & Author Profiles",https://apify.com/johnvc/google-scholar-api,
-36,company data,Marchés B2B,9.5,2113,40,23,0.488,1.0,0.4,-0.119,Linkedin Profile Scraper with Email & Company Data (No Cookie),https://apify.com/datadoping/linkedin-profile-scraper,note 3.4/5 (11 avis)
-37,eudr,Europe,9.29,286,36,6,0.507,1.0,0.0,0.007,Europages [$6💰] B2B Company Data + Emails & VAT IDs,https://apify.com/memo23/europages-scraper,
-38,email finder,Marchés B2B,9.18,7553,37,34,0.209,1.0,0.4,0.145,🍏 Leads Finder - Email 📧 + Mobile Number 📞​,https://apify.com/microworlds/leads-finder,note 2.8/5 (119 avis)
-39,welcome to the jungle,France,9.18,565,38,8,0.402,1.0,0.0,0.112,Welcome to the Jungle Scraper - WTTJ Jobs Fast Export,https://apify.com/clearpath/welcome-to-the-jungle-jobs-api,
-40,print on demand,Outils pour vendeurs,8.7,1031,37,11,0.365,1.0,0.0,-0.048,🔥 Etsy Listings Scraper – Live Carts & Ads,https://apify.com/yumitori/etsy-listings-scraper,
-41,ai agent,Marchés B2B,8.4,256,32,7,0.219,0.973,0.0,-0.038,Google Events | Scrape Google Events for AI Agents,https://apify.com/johnvc/google-events-api---access-google-events-data,
-42,pap.fr,France,8.37,245,37,7,0.327,0.98,0.0,0.084,"Google Scholar | Research Papers, Citations & Author Profiles",https://apify.com/johnvc/google-scholar-api,
-43,linkedin,Marchés B2B,8.08,129762,39,39,0.118,1.0,0.0,0.034,LinkedIn Profile Scraper + Email (No Cookies),https://apify.com/harvestapi/linkedin-profile-scraper,
-44,etsy,Outils pour vendeurs,8.07,2512,38,29,0.163,1.0,0.3,0.048,"Traffic Generator (Youtube, Web, Etsy, Behance and many more!)",https://apify.com/epctex/traffic-generator,48% d'exécutions réussies
-45,google maps,Marchés B2B,8.01,64192,39,35,0.72,0.999,0.0,0.029,Google Maps Scraper,https://apify.com/compass/crawler-google-places,
-46,youtube transcript,Marchés B2B,8.0,17091,39,27,0.301,0.999,0.0,0.088,YouTube Transcript & Subtitles Scraper API,https://apify.com/johnvc/YoutubeTranscripts,
-47,real estate,Marchés B2B,7.86,1683,38,32,0.254,1.0,0.4,0.008,Idealista Scraper - Real Estate for Spain Italy Portugal France,https://apify.com/igolaizola/idealista-scraper,note 3.8/5 (22 avis)
-48,reviews,Marchés B2B,7.73,57811,39,37,0.161,1.0,0.0,0.07,Instagram Comments Scraper,https://apify.com/apify/instagram-comment-scraper,
-49,vinted,Outils pour vendeurs,7.68,491,35,11,0.273,0.978,0.0,0.2,Vinted Scraper | From $0.75/1k 💙,https://apify.com/epicscrapers/vinted-search-scraper,
-50,tiktok,Marchés B2B,7.53,66335,40,40,0.495,1.0,0.0,0.019,TikTok Scraper,https://apify.com/clockworks/tiktok-scraper,
-51,price monitoring,Marchés B2B,7.39,2925,37,21,0.21,1.0,0.0,-0.032,Temu Products Scraper,https://apify.com/crw/temu-products-scraper,
-52,leboncoin,France,7.36,589,35,13,0.202,0.988,0.0,0.054,Leboncoin Scraper (API) Pro 🇫🇷 - Annonces & Prix,https://apify.com/clearpath/leboncoin-api,
-53,amazon,Marchés B2B,7.31,13719,35,31,0.303,1.0,0.0,0.026,Amazon Product Scraper,https://apify.com/junglee/Amazon-crawler,
-54,job listings,Marchés B2B,7.01,3189,39,24,0.512,1.0,0.0,0.02,Career Site Job Listing API,https://apify.com/fantastic-jobs/career-site-job-listing-api,
-55,epr registration,Europe,6.99,4,4,0,0.25,1.0,0.0,0.333,EU Packaging EPR Check (PPWR) for Online Sellers,https://apify.com/nikolaj2127/eu-packaging-epr-check,
-56,shopify,Marchés B2B,6.49,1105,36,21,0.156,1.0,0.0,0.037,"Shopify Store Leads Scraper - Emails, Phones & Ratings",https://apify.com/clearpath/shopify-store-leads,
-57,mcp,Marchés B2B,6.39,538,34,17,0.175,0.985,0.0,0.021,ESPN MCP Server: live scores and sports API,https://apify.com/mrbridge/espn-mcp-server,
-58,pinterest,Outils pour vendeurs,6.33,2922,38,29,0.15,1.0,0.0,0.141,"Pinterest Scraper - Pins, Boards, Comments & User Profiles",https://apify.com/epctex/pinterest-scraper,
+1,insee,France,22.52,55,33,0,0.164,0.982,0.3,0.146,Extraire n° Siren de sites web ou noms de domaine,https://apify.com/sbzh/extract-siren,77% d'exécutions réussies
+2,bodacc,France,16.34,44,37,0,0.068,0.977,0.0,0.1,"French Companies: France SIRENE/SIRET Leads, KYB & BODACC",https://apify.com/euroscrape/france-companies,
+3,data.gouv,France,15.7,38,36,0,0.158,0.974,0.0,0.056,French Companies · Search & SIREN Enrich,https://apify.com/corent1robert/recherche-entreprises-scraper,
+4,gdpr,Europe,15.68,36,32,0,0.139,1.0,0.0,-0.987,Cookie Consent & GDPR Compliance Checker,https://apify.com/delightful_unicorn/cookie-gdpr-checker,
+5,eu vat,Europe,15.58,37,30,0,0.135,0.973,0.0,-0.026,EU VAT Validator — Compliance Monitoring & Alerts,https://apify.com/ryanclinton/eu-vat-validator,
+6,marches publics,France,15.44,34,35,0,0.147,1.0,0.0,0.0,BOAMP Scraper: French Public Tenders & Marches Publics,https://apify.com/dltik/boamp-fr-scraper,
+7,vies,Europe,15.21,34,31,0,0.059,0.971,0.0,-0.029,EU VIES VAT Validator,https://apify.com/neuton/eu-vies-vat-validator,
+8,shopify seo,Outils pour vendeurs,14.95,32,33,0,0.094,0.969,0.0,-0.853,Shopify Website Scraper Email,https://apify.com/b2b_lead_generation/shopify-website-scraper-email,
+9,infogreffe,France,14.74,14,6,0,0.643,0.929,0.3,-0.067,Extraire n° Siren de sites web ou noms de domaine,https://apify.com/sbzh/extract-siren,77% d'exécutions réussies
+10,boamp,France,14.32,31,28,0,0.161,0.903,0.0,0.069,BOAMP Scraper: French Public Tenders & Marches Publics,https://apify.com/dltik/boamp-fr-scraper,
+11,etsy seo,Outils pour vendeurs,14.25,1262,35,7,0.314,1.0,0.3,0.071,"Traffic Generator (Youtube, Web, Etsy, Behance and many more!)",https://apify.com/epctex/traffic-generator,45% d'exécutions réussies
+12,doctolib,France,13.98,24,23,0,0.125,1.0,0.0,0.0,Doctolib · Practitioners by Specialty & City,https://apify.com/corent1robert/doctolib-practitioner-scraper,
+13,societe.com,France,13.8,23,11,0,0.261,1.0,0.0,0.278,French Companies · Search & SIREN Enrich,https://apify.com/corent1robert/recherche-entreprises-scraper,
+14,siret,France,13.56,84,34,1,0.405,0.988,0.0,0.12,Pappers / Sirene Scraper: 26M French Companies SIREN/SIRET,https://apify.com/dltik/pappers-sirene-scraper,
+15,pagesjaunes,France,13.47,117,35,3,0.35,1.0,0.3,-0.079,Pagesjaunes Scraper,https://apify.com/saswave/pagesjaunes-scraper,74% d'exécutions réussies
+16,lead generation,Marchés B2B,13.19,5402,28,7,0.46,0.999,0.0,0.097,Instagram Followers/Following Scraper | No Login | No Cookies,https://apify.com/scraping_solutions/instagram-scraper-followers-following-no-cookies,
+17,bienici,France,13.05,69,39,1,0.217,1.0,0.0,-0.028,Bien'ici Property Search Scraper,https://apify.com/solidcode/bienici-com-scraper,
+18,dvf,France,12.87,65,25,1,0.662,1.0,0.0,0.083,"Pige Immo FR: 20 Portals, Address + Price Tracking",https://apify.com/dltik/pige-immo-fr-scraper,
+19,annuaire,France,12.62,62,35,1,0.161,0.984,0.0,0.127,France Company Registry Scraper - SIREN B2B Leads,https://apify.com/logiover/france-company-registry-scraper,
+20,eur-lex,Europe,12.55,17,20,0,0.118,1.0,0.0,0.417,"EUR-Lex Scraper - EU Regulations, Directives & Case Law",https://apify.com/jungle_synthesizer/eur-lex-eu-legislation-scraper,
+21,compliance,Europe,12.25,59,33,1,0.186,0.949,0.0,-0.106,"Corporate Decision Intelligence: KYC, Compliance, Supplier Risk",https://apify.com/ryanclinton/opencorporates-search,
+22,europe,Europe,12.15,126,40,2,0.143,1.0,0.0,-0.031,NoFluffJobs Scraper — Tech Jobs Poland & Europe,https://apify.com/blackfalcondata/nofluffjobs-scraper,
+23,sirene,France,12.05,126,39,2,0.27,0.984,0.0,0.059,Pappers / Sirene Scraper: 26M French Companies SIREN/SIRET,https://apify.com/dltik/pappers-sirene-scraper,
+24,digital products,Outils pour vendeurs,11.6,698,33,5,0.564,0.997,0.0,0.103,🔥 Etsy Listings Scraper – Live Carts & Ads,https://apify.com/yumitori/etsy-listings-scraper,
+25,france,France,11.48,1170,39,13,0.391,1.0,0.4,0.068,Idealista Scraper - Real Estate for Spain Italy Portugal France,https://apify.com/igolaizola/idealista-scraper,note 3.8/5 (22 avis)
+26,amazon kdp,Outils pour vendeurs,11.36,204,27,6,0.245,1.0,0.3,-0.051,Amazon KDP Book Niche Analyzer: Self Publishing Niche Research,https://apify.com/getascraper/kdp-book-niche-analyzer,89% d'exécutions réussies
+27,gumroad,Outils pour vendeurs,11.23,87,36,2,0.437,1.0,0.0,0.145,"Gumroad Scraper — Products, Sellers, Reviews & Creator Emails",https://apify.com/memo23/gumroad-scraper,
+28,france travail,France,11.18,171,39,3,0.392,1.0,0.0,0.11,France Travail Scraper: 700K+ FR Jobs (Pôle Emploi),https://apify.com/dltik/francetravail-scraper,
+29,legifrance,France,11.14,12,14,0,0.167,1.0,0.0,0.0,JORF Scraper: French Official Journal API (Legifrance + DILA),https://apify.com/dltik/jorf-bulletin-officiel-scraper,
+30,public tender,Europe,11.07,86,32,2,0.14,0.977,0.0,-0.065,TED Europa Scraper: EU Public Procurement Tenders,https://apify.com/dltik/ted-europa-scraper,
+31,welcome to the jungle,France,10.47,588,38,6,0.389,1.0,0.0,0.041,Welcome to the Jungle Scraper - WTTJ Jobs Fast Export,https://apify.com/clearpath/welcome-to-the-jungle-jobs-api,
+32,eudr,Europe,10.02,284,35,5,0.574,1.0,0.0,-0.007,Europages [$6💰] B2B Company Data + Emails & VAT IDs,https://apify.com/memo23/europages-scraper,
+33,french,France,9.9,265,40,5,0.272,1.0,0.0,0.056,APEC Job Scraper [Just 💰$0.8] — French Executive Jobs,https://apify.com/blackfalcondata/apec-scraper,
+34,pappers,France,9.88,262,39,5,0.328,1.0,0.0,0.056,"Google Scholar | Research Papers, Citations & Author Profiles",https://apify.com/johnvc/google-scholar-api,
+35,seloger,France,9.87,160,37,4,0.212,1.0,0.0,-0.07,SeLoger Scraper 💰 $0.9/1K France Real Estate Extractor,https://apify.com/azzouzana/seloger-mass-products-scraper-by-search-url,
+36,indeed france,France,9.77,246,33,5,0.272,1.0,0.0,0.042,France Travail Scraper: 700K+ FR Jobs (Pôle Emploi),https://apify.com/dltik/francetravail-scraper,
+37,company data,Marchés B2B,9.63,2339,40,23,0.516,1.0,0.4,0.107,Linkedin Profile Scraper with Email & Company Data (No Cookie),https://apify.com/datadoping/linkedin-profile-scraper,note 3.4/5 (11 avis)
+38,leboncoin seller,Outils pour vendeurs,9.41,308,36,6,0.438,1.0,0.0,-0.212,Leboncoin Scraper (API) Pro 🇫🇷 - Annonces & Prix,https://apify.com/clearpath/leboncoin-api,
+39,email finder,Marchés B2B,8.99,6298,37,34,0.254,1.0,0.4,-0.166,🍏 Leads Finder - Email 📧 + Mobile Number 📞​,https://apify.com/microworlds/leads-finder,note 2.9/5 (120 avis)
+40,ai agent,Marchés B2B,8.5,269,32,7,0.216,0.978,0.0,0.051,Google Events | Scrape Google Events for AI Agents,https://apify.com/johnvc/google-events-api---access-google-events-data,
+41,pap.fr,France,8.39,251,37,7,0.343,0.976,0.0,0.024,"Google Scholar | Research Papers, Citations & Author Profiles",https://apify.com/johnvc/google-scholar-api,
+42,print on demand,Outils pour vendeurs,8.38,1054,37,12,0.374,1.0,0.0,0.022,🔥 Etsy Listings Scraper – Live Carts & Ads,https://apify.com/yumitori/etsy-listings-scraper,
+43,youtube transcript,Marchés B2B,8.35,18207,39,25,0.339,1.0,0.0,0.065,YouTube Transcript & Subtitles Scraper API,https://apify.com/johnvc/YoutubeTranscripts,
+44,etsy,Outils pour vendeurs,8.27,2658,38,28,0.149,1.0,0.3,0.058,"Traffic Generator (Youtube, Web, Etsy, Behance and many more!)",https://apify.com/epctex/traffic-generator,45% d'exécutions réussies
+45,linkedin,Marchés B2B,8.11,135624,39,39,0.118,1.0,0.0,0.045,LinkedIn Profile Scraper + Email (No Cookies),https://apify.com/harvestapi/linkedin-profile-scraper,
+46,google maps,Marchés B2B,8.03,65912,39,35,0.719,0.999,0.0,0.027,Google Maps Scraper,https://apify.com/compass/crawler-google-places,
+47,reviews,Marchés B2B,7.81,65085,39,37,0.16,1.0,0.0,0.126,Instagram Comments Scraper,https://apify.com/apify/instagram-comment-scraper,
+48,price monitoring,Marchés B2B,7.78,3004,37,19,0.191,1.0,0.0,0.027,Temu Products Scraper,https://apify.com/crw/temu-products-scraper,
+49,real estate,Marchés B2B,7.77,1718,38,33,0.266,1.0,0.4,0.021,Idealista Scraper - Real Estate for Spain Italy Portugal France,https://apify.com/igolaizola/idealista-scraper,note 3.8/5 (22 avis)
+50,vinted,Outils pour vendeurs,7.7,491,36,11,0.285,0.982,0.0,0.0,Vinted Scraper | From $0.75/1k 💙,https://apify.com/epicscrapers/vinted-search-scraper,
+51,tiktok,Marchés B2B,7.58,71513,40,40,0.496,1.0,0.0,0.078,TikTok Scraper,https://apify.com/clockworks/tiktok-scraper,
+52,amazon,Marchés B2B,7.31,13688,35,31,0.285,1.0,0.0,-0.002,Amazon Product Scraper,https://apify.com/junglee/Amazon-crawler,
+53,leboncoin,France,7.21,643,35,14,0.21,0.988,0.0,0.092,Leboncoin Scraper (API) Pro 🇫🇷 - Annonces & Prix,https://apify.com/clearpath/leboncoin-api,
+54,epr registration,Europe,6.99,4,4,0,0.25,1.0,0.0,0.0,EU Packaging EPR Check (PPWR) for Online Sellers,https://apify.com/nikolaj2127/eu-packaging-epr-check,
+55,job listings,Marchés B2B,6.75,3216,39,26,0.494,1.0,0.0,0.008,Career Site Job Listing API,https://apify.com/fantastic-jobs/career-site-job-listing-api,
+56,shopify,Marchés B2B,6.41,1189,37,22,0.137,1.0,0.0,0.076,"Shopify Store Leads Scraper - Emails, Phones & Ratings",https://apify.com/clearpath/shopify-store-leads,
+57,pinterest,Outils pour vendeurs,6.33,3343,38,30,0.155,1.0,0.0,0.144,"Pinterest Scraper - Pins, Boards, Comments & User Profiles",https://apify.com/epctex/pinterest-scraper,
+58,mcp,Marchés B2B,6.18,516,35,18,0.182,0.984,0.0,-0.041,ESPN MCP Server: live scores and sports API,https://apify.com/mrbridge/espn-mcp-server,
